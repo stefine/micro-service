@@ -1,0 +1,7 @@
+{
+  "order": {"product": "T-shirt", "size": "big", "quantity": 20}
+}
+
+{
+  "order": {"product": "T-shirt", "size": "small"}
+}

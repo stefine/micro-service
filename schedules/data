@@ -1,0 +1,28 @@
+{"name": schedule1}
+
+# CREATE TABLE teacher (
+#     id int,
+#     name varchar(255)
+# );
+# INSERT INTO teacher (id, name)
+# VALUES
+# (1, 'Tom B. Erichsen'),
+# (2, 'Per Olsen');
+
+
+# CREATE TABLE student (
+#     teacher_id int,
+#     name varchar(255)
+# );
+
+# INSERT INTO student (teacher_id, name)
+# VALUES
+# (1, 'wss'),
+# (2, 'xx'),
+# (1, 'sss');
+
+SELECT * 
+FROM teacher
+JOIN 
+student
+ON teacher.id == student.teacher_id;
